@@ -1,0 +1,6 @@
+c:\users\usuario\documents\visual studio 2015\Projects\CuadradoLatino\CuadradoLatino\bin\Debug\CuadradoLatino.exe.config
+C:\Users\Usuario\documents\visual studio 2015\Projects\CuadradoLatino\CuadradoLatino\bin\Debug\CuadradoLatino.exe
+C:\Users\Usuario\documents\visual studio 2015\Projects\CuadradoLatino\CuadradoLatino\bin\Debug\CuadradoLatino.pdb
+C:\Users\Usuario\documents\visual studio 2015\Projects\CuadradoLatino\CuadradoLatino\obj\Debug\CuadradoLatino.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\documents\visual studio 2015\Projects\CuadradoLatino\CuadradoLatino\obj\Debug\CuadradoLatino.exe
+C:\Users\Usuario\documents\visual studio 2015\Projects\CuadradoLatino\CuadradoLatino\obj\Debug\CuadradoLatino.pdb
