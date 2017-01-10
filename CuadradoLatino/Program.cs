@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CuadradoLatino
 {
-    enum AppSection { LatinSquare, UniversityExercice }
+    enum AppSection { LatinSquare, ASIRExercice }
     class Program
     {
         private static int tamano = 25, phase = -1;
@@ -32,7 +32,7 @@ namespace CuadradoLatino
                     Console.WriteLine("Seleccione la sección [1-2]:");
                     Console.WriteLine();
                     Console.WriteLine("1.- Cuadrado latino");
-                    Console.WriteLine("2.- Ejercicio de la universidad");
+                    Console.WriteLine("2.- Ejercicio de ASIR");
                     Console.WriteLine();
                     string s = Console.ReadLine();
                     int isec = -1;
@@ -57,14 +57,14 @@ namespace CuadradoLatino
                                     sb.Append(Environment.NewLine);  
                                 }
                                 break;
-                            case AppSection.UniversityExercice:
+                            case AppSection.ASIRExercice:
                                 for (int x = 1; x <= tamano; ++x)
                                 {
                                     for (int y = 1; y <= tamano; ++y)
                                     {
                                         int cur = y + 1; //Hacemos que se vaya sumando uno...
                                         cur -= x;
-                                        cur = cur < 1 ? tamano - Math.Abs(cur) : cur; //Jugamos con el desbordamiento, si el numero es mayor al tamaño, volvemos a empezar desde 1
+                                        cur = cur < 1 ? tamano + cur : cur; //Jugamos con el desbordamiento, si el numero es mayor al tamaño, volvemos a empezar desde 1
                                         sb.Append((tamano >= 10 && cur.ToString().Length < 2 ? "0" : "") + cur + " "); //Guardamos el resultado, cuadrando el tamaño en todo caso...
                                     }
                                     sb.Append(Environment.NewLine);
